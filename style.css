@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(Asset/Sparkles.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    text-align: center;
+}
+.logo{
+    font-style: oblique;
+    color: whitesmoke;
+    margin-right: 80%;
+    margin-top: 2%;
+
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    font-size:bold;
+}
+
+
+ul li a:hover{
+    color:purple;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+.purple{
+    margin-top: 1%;
+    margin-left: 70%;
+    height: 2rem;
+    width: 6rem;
+    border-radius: 10px;
+    background-color: plum;
+}
+
+.purple:hover{
+    background-color: whitesmoke;
+}
+
+.text{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 5rem;
+}
+
+h3{
+    margin-top: 1rem;
+    color: plum;
+    font-size: 2rem;
+}
+
+.blue{
+    margin-top: 6rem;
+    margin-right: 2rem;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+.blue:hover{
+    background-color: plum;
+}
+
+.white{
+    margin-top: 6rem;
+    margin-left: 2rem;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+.white:hover{
+    background-color: plum;
+}
